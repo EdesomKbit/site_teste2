@@ -1,0 +1,162 @@
+Cidade de Limeira 
+
+Links: a-cidade.html, distancias.html, bairros.html, localizacao.html, populacao.html, pontos-turisticos.html, esportes.html, lista-de-prefeitos.html
+
+1 - Criar a página inicial do site com links para as páginas acima, que serão criadas futuramente. 
+Enviar para o Github com o commit "Site Limeira - Página inicial - 06/11/2024"
+
+2 - Criar a página a-cidade.html com as informações da cidade em forma de textos, imagens, vídeos ou outros recursos. Inclua também uma seção com links para sites relevantes da cidade.
+Enviar para o Github com o commit "Site Limeira - Página a-cidade.html - 11/11/2024"
+
+
+3 - Tabela de distâncias: Página com tabelas de distâncias de:
+- Limeira a outras cidades do estado de São Paulo e do Brasil
+- Centro da cidade para outros pontos importantes no município
+Enviar para o Github com o commit "Site Limeira - Página distancias.html - 13/11/2024"
+
+4 - Bairros: Relação dos principais bairros urbanos e rurais. Pode usar tabela ou listas
+Enviar para o Github com o commit "Site Limeira - Página bairros.html - 13/11/2024"
+
+5 - Pontos turísticos: Página com relação dos pontos turísticos, incluindo um breve texto e fotos sobre cada ponto. 
+Enviar para o Github com o commit "Site Limeira - Página pontos-turisticos.html - 13/11/2024"
+
+=================================
+
+6 - População: Página com informações da população de Limeira. Ver: https://cidades.ibge.gov.br/brasil/sp/limeira/panorama
+
+7 - Localização: Página com os seguintes mapas:
+- Ampliado mostrando o município de Limeira
+- Reduzido mostrando apenas a cidade
+- Street View focando um ponto relevante da cidade
+
+8 - Esporte: Página com alguns vídeos sobre as modalidades esportivas na cidade.
+
+9 - Prefeitos: Tabela ou lista com os nomes dos últimos prefeitos, a data de início do mandato e a data final
+
+Enviar para o Github e testar o site publicado
+
+
+===================================
+
+10 - Criar um formulário para envio de sugestões para melhoria da cidade de Limeira com os seguintes campos:
+- Nome (mínimo 6 caracteres)
+- E-mail (válido)
+- Sexo (preenchimento obrigatório)
+- idade (aceitar apenas números inteiros)
+- Sugestão (mínimo 100 caracteres)
+Enviar para o Github e testar o site publicado
+_________________________________________________________________________________________________________________________
+
+
+
+gLuis Ribeiro
+luis.cribeiro@sp.senac.br
+
+UC15 - pasta de trabalho
+VSCode - ferramenta
+
+HTML - HyperText Markup Language (Linguagem de marcação de textos)
+CSS - Cascating Style sheet (Folha de estilos em cascata)
+
+
+Três formas de usar CSS:
+- Inline (usando o atributo style)
+- Incorporado (usando a tag style)
+- Linkado (usando a tag link) - recomendado
+
+Grupo 1: cor
+- formas de representar cor em HTML e CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens
+
+Escala hexadecimal: 0123456789abcdf (0 é preto e f é branco)
+Escala RGB: 0 a 255 (0 preto e 255 é branco)
+
+Grupo 2: fonte
+- quais os tipos de fontes que podem ser usadas em CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens
+
+Grupo 3: unidades de medidas
+- quais as unidades de medidas que podem ser usadas em CSS
+- quando devo usar uma ou outra
+- limitações, vantagens e desvantagens 
+
+===============================
+Box model
+- Largura
+- Altura
+- Borda (border)
+- Margem externa. Da borda para fora (margin)
+- Margem interna. Da borda para dentro (padding)
+
+• Tags de bloco (box model)
+• Tags inline
+
+
+SHIFT + ALT + F 	para identar código
+CTRL + ; 		para comentar / descomentar o código
+
+
+GIT - Ferramenta de versionamento (precisa ser instalado no computador local)
+GITHUB - Repositório remoto
+
+u15 -> branch
+
+NOVO ======================
+git init				// Inicializa um repositório local
+
+git branch -M main			// Mudar para a branch main (principal)
+git checkout -b nome_da_branch		// Criar uma branch					
+git remote add origin https://github.com/luisribeiro1/site_limeira.git	// Definir repositório remoto
+
+git add .				// Adicionar arquivos para serem enviados
+git commit -m "Aula 21/10/2024 - Flexbox em HTML e CSS"	  // Registra as mudanças
+git push -u origin nome_da_branch
+
+
+EXISTENTE ======================
+git add .
+git commit -m "Aula xx/xx/xxxx - conteúdo da aula"
+git push
+
+
+
+======================================
+DEPLOY - PUBLICAÇÃO
+
+- domínio ou subdomínio		(endereço de acesso)
+- hospedagem			(local de armazenamento de arquivos)
+
+Hospedagem no Github
+1 - Ter uma conta no Github
+2 - Criar um repositório
+3 - Configurar o GIT
+
+git init				// Inicializa um repositório local
+git branch -M main			// Mudar para a branch main 		
+git remote add origin https://github.com/luisribeiro1/site_limeira.git
+// Definir repositório remoto
+
+git add .
+git commit -m "Aula 22/11/2024 - Conteúdo da aula"
+git push -u origin main
+
+4 - Configurar o Github Pages
+
+5 - Atualizações - novo deploy
+
+git add .
+git commit -m "Aula 22/11/2024 - Conteúdo da aula"
+git push
+
+
+
+
+
+
+
+
+git add .
+git commit -m "Aula 22/11/2024 - Conteúdo da aula"
+git push
